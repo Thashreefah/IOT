@@ -33,3 +33,8 @@ https://wokwi.com/projects/335067381555528276
  PROGRAM-8(ULTRASONIC SENSOR)<br>
 https://wokwi.com/projects/335070257026695763
  
+ PROGRAM-9(ULTRASONIC SENSOR WITH BUZZER)<br>
+ https://wokwi.com/projects/335072488952169043
+ 
+ 
+ 
