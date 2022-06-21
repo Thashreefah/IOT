@@ -17,3 +17,7 @@ https://wokwi.com/projects/334980377426788946
 
 PROGRAM-6 (SERVO MOTOR USING 2 FOR LOOPS[BACKWARD AND FORWARD])<BR>
  https://wokwi.com/projects/334981476631183956
+
+ PROGRAM-7 (BUZZER)<br>
+ https://wokwi.com/projects/335065040663085650
+ 
