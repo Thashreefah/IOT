@@ -6,8 +6,12 @@ https://wokwi.com/projects/333796636268429907
 PROGRAM-1(Arduino 3 LED)<br>
 https://wokwi.com/projects/333716380233761363
 
-PROGRAM-2(ArduinoRGB LED)<br>
+PROGRAM-2(Arduino RGB LED)<br>
 https://wokwi.com/projects/333885849725829714
+
+PROGRAM-3(Arduino LCD)<br>
+
+
 
 PROGRAM-4 (SERVO MOTOR)<br>
 https://wokwi.com/projects/334977337093259858
@@ -20,4 +24,6 @@ PROGRAM-6 (SERVO MOTOR USING 2 FOR LOOPS[BACKWARD AND FORWARD])<BR>
 
  PROGRAM-7 (BUZZER)<br>
  https://wokwi.com/projects/335065040663085650
+ 
+ 
  
