@@ -36,5 +36,8 @@ https://wokwi.com/projects/335070257026695763
  PROGRAM-11(ULTRASONIC SENSOR WITH BUZZER)<br>
  https://wokwi.com/projects/335072488952169043
  
+ PROGRAM-12(ULTRASONIC SENSOR WITH BUZZER AND LED)<br>
+ https://wokwi.com/projects/335610155442897491
+ 
  
  
