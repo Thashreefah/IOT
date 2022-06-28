@@ -21,7 +21,7 @@ PROGRAM-5 (SERVOMOTOR + POTENTIOMETER SLIDE)<br>
 https://wokwi.com/projects/334980377426788946
 
 PROGRAM-6 (SERVOMOTOR + PUSHBUTTON)<br>
-https://wokwi.com/projects/new/arduino-uno
+https://wokwi.com/projects/335702709745222226
 
 PROGRAM-7 (SERVO MOTOR USING 2 FOR LOOPS[BACKWARD AND FORWARD])<BR>
  https://wokwi.com/projects/334981476631183956
