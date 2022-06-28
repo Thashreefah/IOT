@@ -53,6 +53,6 @@ https://wokwi.com/projects/335070257026695763
  
  🤍POTENTIOMETER🤍
  
- PROGRAM-14 (POTENTIOMETER + LED)<br>
+PROGRAM-14 (POTENTIOMETER + LED)<br>
 https://wokwi.com/projects/335702361099993682
  
