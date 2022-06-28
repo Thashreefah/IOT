@@ -12,6 +12,8 @@ https://wokwi.com/projects/333885849725829714
 PROGRAM-3(Arduino LCD)<br>
 https://wokwi.com/projects/334974475061690963
 
+❤SERVO MOTOR❤
+
 PROGRAM-4 (SERVO MOTOR)<br>
 https://wokwi.com/projects/334977337093259858
 
@@ -24,6 +26,8 @@ https://wokwi.com/projects/new/arduino-uno
 PROGRAM-7 (SERVO MOTOR USING 2 FOR LOOPS[BACKWARD AND FORWARD])<BR>
  https://wokwi.com/projects/334981476631183956
 
+❤BUZZER❤
+
  PROGRAM-8 (BUZZER)<br>
  https://wokwi.com/projects/335065040663085650
  
@@ -35,6 +39,8 @@ https://wokwi.com/projects/335067381555528276
  
  PROGRAM-10(BUZZER WITH PUSH BUTTON [LONG PRESS])<br>
  https://wokwi.com/projects/335069571375432274
+
+❤ULTRASONIC SENSOR❤
 
  PROGRAM-11(ULTRASONIC SENSOR)<br>
 https://wokwi.com/projects/335070257026695763
