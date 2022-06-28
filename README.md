@@ -55,4 +55,10 @@ https://wokwi.com/projects/335070257026695763
  
 PROGRAM-14 (POTENTIOMETER + LED)<br>
 https://wokwi.com/projects/335702361099993682
+
+
+
+
+
+https://wokwi.com/projects/335706785117635155
  
