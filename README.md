@@ -51,5 +51,8 @@ https://wokwi.com/projects/335070257026695763
  PROGRAM-13(ULTRASONIC SENSOR WITH BUZZER AND LED)<br>
  https://wokwi.com/projects/335610155442897491
  
+ 🤍POTENTIOMETER🤍
  
+ PROGRAM-14 (POTENTIOMETER + LED)
+https://wokwi.com/projects/335702361099993682
  
