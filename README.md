@@ -61,8 +61,11 @@ https://wokwi.com/projects/335706785117635155
  
  🤍ESP32 🤍
  
- PROGRAM-1(ESP32 LED)<br>
+ PROGRAM-1.0 (ESP32 LED)<br>
  https://wokwi.com/projects/336878768089989716
 
- PROGRAM-1(ESP32 3-LED)<br>
+ PROGRAM-1 (ESP32 3-LED)<br>
 https://wokwi.com/projects/336881601441956435
+
+PROGRAM-2 (ESP32 RGB LED)<br>
+https://wokwi.com/projects/336881955089941074
