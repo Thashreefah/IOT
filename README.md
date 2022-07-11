@@ -3,7 +3,7 @@
 PROGRAM-1.0(Arduino LED)<br>
 https://wokwi.com/projects/333796636268429907
 
-PROGRAM-1(Arduino 3 LED)<br>
+PROGRAM-1(Arduino 3-LED)<br>
 https://wokwi.com/projects/333716380233761363
 
 PROGRAM-2(Arduino RGB LED)<br>
@@ -60,5 +60,9 @@ PROGRAM-15 (2 ULTRASONIC SENSOR WITH LED AND BUZZER)<br>
 https://wokwi.com/projects/335706785117635155
  
  🤍ESP32 🤍
+ 
  PROGRAM-1(ESP32 LED)<br>
  https://wokwi.com/projects/336878768089989716
+
+ PROGRAM-1(ESP32 3-LED)<br>
+https://wokwi.com/projects/336881601441956435
