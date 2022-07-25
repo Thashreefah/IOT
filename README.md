@@ -43,7 +43,7 @@ https://wokwi.com/projects/335067381555528276
 🤍ULTRASONIC SENSOR🤍
 
  PROGRAM-11(ULTRASONIC SENSOR)<br>
-https://wokwi.com/projects/335070257026695763
+ https://wokwi.com/projects/335070257026695763
  
  PROGRAM-12(ULTRASONIC SENSOR + BUZZER)<br>
  https://wokwi.com/projects/335072488952169043
@@ -51,13 +51,14 @@ https://wokwi.com/projects/335070257026695763
  PROGRAM-13(ULTRASONIC SENSOR + BUZZER + LED)<br>
  https://wokwi.com/projects/335610155442897491
  
+ PROGRAM-14 (2 ULTRASONIC SENSOR + LED + BUZZER)<br>
+ https://wokwi.com/projects/335706785117635155
+ 
  🤍POTENTIOMETER🤍
  
-PROGRAM-14 (POTENTIOMETER + LED)<br>
+PROGRAM-15 (POTENTIOMETER + LED)<br>
 https://wokwi.com/projects/335702361099993682
 
-PROGRAM-15 (2 ULTRASONIC SENSOR + LED + BUZZER)<br>
-https://wokwi.com/projects/335706785117635155
  
  🤍DHT22🤍
  
