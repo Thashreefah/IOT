@@ -81,7 +81,15 @@ https://wokwi.com/projects/336881955089941074
 
 
 **************************************************************************
-1. To interface LED/Buzzer with Arduino and write a program to turn on LED for 1 sec after every 2 seconds.<br>
+1. To interface LED/Buzzer with Arduino and write a program to turn ON LED for 1 sec after every 2 seconds.<br>
      https://wokwi.com/projects/334348041107538516 <br>
-2. To interface Push button/Digital sensor(IR/LDR) with Arduino and write a program to turn on LED when push button is pressed or at sensor detection.  <br>
+2. To interface Push button/Digital sensor(IR/LDR) with Arduino and write a program to turn ON LED when push button is pressed or at sensor detection.  <br>
       https://wokwi.com/projects/338224466542723668<br>
+3. To interface DHT11(DHT22) sensor with Arduino and write a program to print temperature and humidity readings.<br>
+      https://wokwi.com/projects/338145995428725330 <br>
+4. To interface motor using relay with Arduino and write a program to turn ON motor when push button is pressed.<br>
+      https://wokwi.com/projects/335701119415091795 <br>
+5. To interface LCD with Arduino and write a program to print temperature and humidity reading on it.<br>
+      https://wokwi.com/projects/338146515814974035 <br>
+6. To interface Bluetooth with Arduion and write a program to send sensor data to smartphone using Bluetooth.<br>
+7. To interface Bluetooth with Arduion and write a program to turn LED ON/OFF when '1'/'0' is received from smartphone using Bluetooth.<br>
