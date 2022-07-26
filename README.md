@@ -93,3 +93,114 @@ https://wokwi.com/projects/336881955089941074
       https://wokwi.com/projects/338146515814974035 <br>
 6. To interface Bluetooth with Arduion and write a program to send sensor data to smartphone using Bluetooth.<br>
 7. To interface Bluetooth with Arduion and write a program to turn LED ON/OFF when '1'/'0' is received from smartphone using Bluetooth.<br>
+******************************************************************************
+
+😎BUZZER😎<br>
+
+const int buzzer=2;//D4buzzer to arduino pin 9<br>
+void setup() {<br>
+  // put your setup code here, to run once:<br>
+pinMode(buzzer,OUTPUT);// Set buzzer - pin 9 as an output<br>
+}<br>
+
+void loop() {<br>
+  // put your main code here, to run repeatedly:<br>
+tone(buzzer,10);// Send 1KHz sound signal...<br>
+delay(1000);// ...for 10 sec<br>
+noTone(buzzer);// Stop sound...<br>
+delay(1000);// ...for 5 sec<br>
+}<br>
+
+😎RGB😎<br>
+
+int red = D5;<br>
+ int green = D6;<br>
+ int blue = D7;<br>
+ //GROUND IS CONNECTED TO 3V <br>
+ void setup() {<br>
+   pinMode(red, OUTPUT);<br>
+   pinMode(green, OUTPUT);<br>
+   pinMode(blue, OUTPUT);<br>
+
+ }<br>
+
+ void loop() {<br>
+   displayColor(0b100); //RED<br>
+   delay(1000);<br>
+   displayColor(0b010); //GREEN<br>
+   delay(1000);<br>
+   displayColor(0b001); //BLUE<br>
+   delay(1000);<br>
+   displayColor(0b101); //MAGENTA<br>
+   delay(1000);<br>
+   displayColor(0b011); //CYAN<br>
+   delay(1000);<br>
+   displayColor(0b110); //YELLOW<br>
+   delay(1000);<br>
+   displayColor(0b111); //WHITE<br>
+   delay(1000);<br>
+ }<br>
+
+ void displayColor(byte color) {<br>
+   digitalWrite(red, !bitRead(color, 2));<br>
+   digitalWrite(green, !bitRead(color, 1));<br>
+   digitalWrite(blue, !bitRead(color, 0));<br>
+ }<br>
+ 
+ 
+ 😎ULTRASONIC SENSOR😎<br>
+ 
+ 
+const int trigPin = 12;//d6<br>
+const int echoPin = 14;//d5<br>
+
+
+//define sound velocity in cm/uS<br>
+#define SOUND_VELOCITY 0.034<br>
+#define CM_TO_INCH 0.393701<br>
+
+long duration;<br>
+float distanceCm;<br>
+float distanceInch;<br>
+int LED = D0;<br>
+
+void setup() {<br>
+  Serial.begin(9600); // Starts the serial communication<br>
+  pinMode(trigPin, OUTPUT); // Sets the trigPin as an Output<br>
+  pinMode(echoPin, INPUT); // Sets the echoPin as an Input<br>
+
+  pinMode(LED,OUTPUT);<br>
+}<br>
+
+void loop() {<br>
+  // Clears the trigPin<br>
+  digitalWrite(trigPin, LOW);<br>
+  delayMicroseconds(2);<br>
+  // Sets the trigPin on HIGH state for 10 micro seconds<br>
+  digitalWrite(trigPin, HIGH);<br>
+  delayMicroseconds(10);<br>
+  digitalWrite(trigPin, LOW);<br>
+  
+  // Reads the echoPin, returns the sound wave travel time in microseconds<br>
+  duration = pulseIn(echoPin, HIGH);<br>
+  
+  // Calculate the distance<br>
+  distanceCm = duration * SOUND_VELOCITY/2;<br>
+  
+  // Convert to inches<br>
+  distanceInch = distanceCm * CM_TO_INCH;<br>
+  if(distanceInch < 10)<br>
+
+  digitalWrite(LED,HIGH);<br>
+  else<br>
+  digitalWrite(LED,LOW); <br>
+  
+  // Prints the distance on the Serial Monitor<br>
+  Serial.print("Distance (cm): ");<br>
+  Serial.println(distanceCm);<br>
+  Serial.print("Distance (inch): ");<br>
+  Serial.println(distanceInch);<br>
+  
+  delay(1000);<br>
+}<br>
+
