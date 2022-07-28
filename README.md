@@ -204,3 +204,137 @@ void loop() {<br>
   delay(1000);<br>
 }<br>
 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+///////////////////////////////////////////// 
+void setup() {
+pinMode(D5, OUTPUT);
+pinMode(D6, OUTPUT);
+pinMode(D7, OUTPUT);
+
+}
+
+void loop() {
+displayColor(0b100);
+delay(2000);
+displayColor(0b010);
+delay(2000);
+displayColor(0b001);
+delay(2000);
+displayColor(0b101);
+delay(2000);
+displayColor(0b011);
+delay(2000);
+displayColor(0b110);
+delay(2000);
+displayColor(0b111);
+delay(2000);
+
+
+}
+void displayColor(byte color)
+{ digitalWrite(D5,!bitRead(color,2));
+digitalWrite(D6,!bitRead(color,1));
+digitalWrite(D7,!bitRead(color,0));
+}
+
+const int buzzer = 2;//D4
+void setup(){
+
+pinMode(buzzer, OUTPUT); // Set buzzer - pin 2 as an output
+
+}
+
+void loop(){
+
+tone(buzzer, 50); // Send 1KHz sound signal...
+delay(100); // ...for 1 sec
+noTone(buzzer); // Stop sound...
+delay(1000); // ...for 1sec
+
+}
+#include <DHT.h>;
+
+#define DHTPIN 2 // what pin we're connected to
+#define DHTTYPE DHT22 // DHT 22 (AM2302)
+DHT dht(DHTPIN, DHTTYPE); //// Initialize DHT sensor for normal 16mhz Arduino
+//Variables
+int chk;
+float hum; //Stores humidity value
+float temp; //Stores temperature value
+void setup()
+{
+Serial.begin(9600);
+dht.begin();
+}
+void loop()
+{
+delay(2000);
+//Read data and store it to variables hum and temp
+hum = dht.readHumidity();
+temp= dht.readTemperature();
+//Print temp and humidity values to serial monitor
+Serial.print("Humidity: ");
+Serial.print(hum);
+Serial.print(" %, Temp: ");
+Serial.print(temp);
+Serial.println(" Celsius");
+delay(1000); //Delay 2 sec.
+}
+
+
+const int trigPin = 12;
+const int echoPin = 14;
+
+//define sound velocity in cm/uS
+#define SOUND_VELOCITY 0.034
+#define CM_TO_INCH 0.393701
+
+long duration;
+float distanceCm;
+float distanceInch;
+int LED = D0;
+
+void setup() {
+Serial.begin(9600); // Starts the serial communication
+pinMode(trigPin, OUTPUT); // Sets the trigPin as an Output
+pinMode(echoPin, INPUT); // Sets the echoPin as an Input
+
+pinMode(LED,OUTPUT);
+}
+
+void loop() {
+// Clears the trigPin
+digitalWrite(trigPin, LOW);
+delayMicroseconds(2);
+// Sets the trigPin on HIGH state for 10 micro seconds
+digitalWrite(trigPin, HIGH);
+delayMicroseconds(10);
+digitalWrite(trigPin, LOW);
+
+// Reads the echoPin, returns the sound wave travel time in microseconds
+duration = pulseIn(echoPin, HIGH);
+
+// Calculate the distance
+distanceCm = duration * SOUND_VELOCITY/2;
+
+// Convert to inches
+distanceInch = distanceCm * CM_TO_INCH;
+if(distanceInch < 10)
+
+digitalWrite(LED,HIGH);
+else
+digitalWrite(LED,LOW);
+
+//Prints the distance on the Serial Monitor
+Serial.print("Distance (cm): ");
+Serial.println(distanceCm);
+Serial.print("Distance (inch): ");
+Serial.println(distanceInch);
+delay(1000);
+}
