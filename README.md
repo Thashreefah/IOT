@@ -236,7 +236,32 @@ delay(1000); //Delay 2 sec.<br>
 }<br>
  
  
- 
+ 😎IR😎<br>
+ int ir=D7;<br>
+int led=D5;<br>
+void setup() {<br>
+// put your setup code here, to run once:<br>
+pinMode(ir,INPUT);<br>
+pinMode(led,OUTPUT);<br>
+Serial.begin(9600);<br>
+
+}<br>
+
+void loop() {<br>
+// put your main code here, to run repeatedly:<br>
+int irvalue=digitalRead(ir);<br>
+if(irvalue==LOW)<br>
+{<br>
+Serial.println("LOW");<br>
+digitalWrite(led,HIGH);<br>
+}<br>
+else<br>
+{<br>
+Serial.println("HIGH");<br>
+digitalWrite(led,LOW);<br>
+}<br>
+delay(100);<br>
+}<br>
  
  
  
