@@ -93,6 +93,11 @@ https://wokwi.com/projects/336881955089941074
       https://wokwi.com/projects/338146515814974035 <br>
 6. To interface Bluetooth with Arduion and write a program to send sensor data to smartphone using Bluetooth.<br>
 7. To interface Bluetooth with Arduion and write a program to turn LED ON/OFF when '1'/'0' is received from smartphone using Bluetooth.<br>
+8. write a program on Arduino to upload temperature and humidity data to thingspeak cloud.<br>
+9. write a program on Arduino to retrieve temperature and humidity data from thingspeak cloud.<br>
+10. write a program on Arduino to subscribe to MQTT broker for temperature data and print it.<br>
+11. write a program to create TCP server on Arduino and respond with humidity data to TCP client when required.<br>
+12. write a program to create UDP server on Arduino and respond with humidity data to UDP client when required.<br> 
 ******************************************************************************
 
 ❤HARDWARE❤<br>
