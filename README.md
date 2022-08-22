@@ -95,6 +95,8 @@ https://wokwi.com/projects/336881955089941074
 7. To interface Bluetooth with Arduion and write a program to turn LED ON/OFF when '1'/'0' is received from smartphone using Bluetooth.<br>
 ******************************************************************************
 
+❤HARDWARE❤<br>
+ 
 😎BUZZER😎<br>
 
 const int buzzer=2;//D4buzzer to arduino pin 9<br>
