@@ -282,7 +282,7 @@ delay(100);<br>
                      
  /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////<br>                   
                      
-//Chassing LED//
+//Chassing LED//<br>
 int pinsCount=7; // declaring the integer variable pinsCount<br><br>
 int pins[] = {D0,D1,D2,D3,D4,D5,D6}; // declaring the array pins[]<br>
 
