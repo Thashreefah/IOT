@@ -68,6 +68,19 @@ https://wokwi.com/projects/335702361099993682
  PROGRAM-17 (DHT22 [HUMIDITY AND TEMPERATURE SENSOR] + LCD)<br>
  https://wokwi.com/projects/338146187020337746
  
+ 
+ PROGRAM-18 (LED Chaser)
+ https://wokwi.com/projects/340853047777296978
+ 
+ PROGRAM-19 (LDR) 
+ https://wokwi.com/projects/340853480657781330
+ 
+ PROGRAM-20 (LDR + LED ) 
+ https://wokwi.com/projects/340853623478026835
+ 
+ PROGRAM-21 (IR Receiver + LED)
+ https://wokwi.com/projects/340779619162522195
+ 
  🤍ESP32 🤍
  
  PROGRAM-1.0 (ESP32 LED)<br>
@@ -78,6 +91,7 @@ https://wokwi.com/projects/336881601441956435
 
 PROGRAM-2 (ESP32 RGB LED)<br>
 https://wokwi.com/projects/336881955089941074
+
 
 
 **************************************************************************
@@ -278,7 +292,103 @@ delay(100);<br>
  
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
  
-  https://wokwi.com/projects/321525495180034642               
+😎CHASER_LED😎<br>
+int pinsCount=7; // declaring the integer variable pinsCount<BR>
+int pins[] = {D0,D1,D2,D3,D4,D5,D6}; // declaring the array pins[]<BR>
+
+void setup() {<BR>
+for (int i=0; i<pinsCount; i=i+1){ // counting the variable i from 0 to 9<BR>
+pinMode(pins[i], OUTPUT); // initialising the pin at index i of the array of pins as OUTPUT<BR>
+}<BR>
+}<BR>
+void loop() {<BR>
+for (int i=0; i<pinsCount; i=i+1){ // chasing right<BR>
+digitalWrite(pins[i], HIGH); // switching the LED at index i on<BR>
+delay(100); // stopping the program for 100 milliseconds<BR>
+digitalWrite(pins[i], LOW); // switching the LED at index i off<BR>
+}<BR>
+for (int i=pinsCount-1; i>0; i=i-1){ // chasing left (except the outer leds)<BR>
+digitalWrite(pins[i], HIGH); // switching the LED at index i on<BR>
+delay(100); // stopping the program for 100 milliseconds<BR>
+digitalWrite(pins[i], LOW); // switching the LED at index i off<BR>
+
+}<BR>
+}<BR>
+
+--------------------------------------------------------------------
+ 
+😎flood monitoring using thingspeak😎
+
+
+#include "ThingSpeak.h"<BR>
+#include <ESP8266WiFi.h><BR>
+const int trigPin1 = D6;<BR>
+const int echoPin1 = D7;<BR>
+#define redled D0<BR>
+#define grnled D1<BR>
+#define BUZZER D5 //buzzer pin unsigned long ch_no = 1053193;//Replace with Thingspeak Channel number<BR>
+const char * write_api = "1WGTOHK9622G57JI";//Replace with Thingspeak write API<BR>
+char auth[] = "mwa0000027193727";<BR>
+char ssid[] = "SATHWIKA";<BR>
+char pass[] = "Mohitha96";<BR>
+unsigned long startMillis;<BR>
+unsigned long currentMillis;<BR>
+const unsigned long period = 10000;<BR>
+WiFiClient client;<BR>
+long duration1;<BR>
+int distance1;<BR>
+void setup() {<BR>
+pinMode(trigPin1, OUTPUT);<BR>
+pinMode(echoPin1, INPUT);<BR>
+pinMode(redled, OUTPUT);<BR>
+pinMode(grnled, OUTPUT);<BR>
+digitalWrite(redled, LOW);<BR>
+digitalWrite(grnled, LOW);<BR>
+Serial.begin(115200);<BR>
+WiFi.begin(ssid, pass);<BR>
+while (WiFi.status() != WL_CONNECTED)<BR>
+{<BR>
+delay(1000);<BR>
+Serial.print(".");<BR>
+}<BR>
+Serial.println("WiFi connected");<BR>
+Serial.println(WiFi.localIP());<BR>
+ThingSpeak.begin(client);<BR>
+startMillis = millis(); //initial start time<BR>
+}<BR>
+void loop()<BR>
+{<BR>
+digitalWrite(trigPin1, LOW);<BR>
+delayMicroseconds(2);<BR>
+digitalWrite(trigPin1, HIGH);<BR>
+delayMicroseconds(10);<BR>
+digitalWrite(trigPin1, LOW);<BR>
+duration1 = pulseIn(echoPin1, HIGH);<BR>
+distance1 = duration1 * 0.034 / 2;<BR>
+Serial.println(distance1);<BR>
+if (distance1 <= 400)<BR>
+{<BR>
+digitalWrite(D0, HIGH);<BR>
+tone(BUZZER, 300);<BR>
+digitalWrite(D1, LOW);<BR>
+delay(1500);<BR>
+noTone(BUZZER);<BR>
+}<BR>
+else<BR>
+{<BR>
+digitalWrite(D1, HIGH);<BR>
+digitalWrite(D0, LOW);<BR>
+}<BR>
+currentMillis = millis();<BR>
+if (currentMillis - startMillis >= period)<BR>
+{<BR>
+ThingSpeak.setField(1, distance1);<BR>
+ThingSpeak.writeFields(ch_no, write_api);<BR>
+startMillis = currentMillis;<BR>
+}<BR>
+}<BR>
+ 
+       
                      
  /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////<br>                   
                      
