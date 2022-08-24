@@ -68,17 +68,20 @@ https://wokwi.com/projects/335702361099993682
  PROGRAM-17 (DHT22 [HUMIDITY AND TEMPERATURE SENSOR] + LCD)<br>
  https://wokwi.com/projects/338146187020337746
  
+ 🤍LED🤍
  
- PROGRAM-18 (LED Chaser)
+ PROGRAM-18 (LED Chaser)<br>
  https://wokwi.com/projects/340853047777296978
  
- PROGRAM-19 (LDR) 
+ 🤍LDR🤍
+ 
+ PROGRAM-19 (LDR) <br>
  https://wokwi.com/projects/340853480657781330
  
- PROGRAM-20 (LDR + LED ) 
+ PROGRAM-20 (LDR + LED ) <br>
  https://wokwi.com/projects/340853623478026835
  
- PROGRAM-21 (IR Receiver + LED)
+ PROGRAM-21 (IR Receiver + LED)<br>
  https://wokwi.com/projects/340779619162522195
  
  🤍ESP32 🤍
@@ -93,6 +96,11 @@ PROGRAM-2 (ESP32 RGB LED)<br>
 https://wokwi.com/projects/336881955089941074
 
 
+1.ESP32 LED:https://wokwi.com/projects/336877332872561236<br>
+2.ESP32 3 LED:https://wokwi.com/projects/336882445805683282<br>
+3.ESP32 RGB LED: https://wokwi.com/projects/336879976249819732<br>
+4. ESP32 RGB LCD: https://wokwi.com/projects/340854854168609362<br>
+5.servomotor with sliding potentiometer : https://wokwi.com/projects/340857446725583442<br>
 
 **************************************************************************
 1. To interface LED/Buzzer with Arduino and write a program to turn ON LED for 1 sec after every 2 seconds.<br>
