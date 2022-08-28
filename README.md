@@ -86,6 +86,23 @@ https://wokwi.com/projects/335702361099993682
  
  🤍ESP32 🤍
  
+ESP32
+https://wokwi.com/projects/336966830711112275 - LED<br>
+https://wokwi.com/projects/336967978479256147 - 3 LED<br>
+https://wokwi.com/projects/340880463446934098 - RGB<br>
+https://wokwi.com/projects/340882358612787796 - LCD<br>
+https://wokwi.com/projects/340886369600537172 - Servo Motor + Pushbutton<br>
+https://wokwi.com/projects/340888468071645780 - Servo Motor + Sliding Potentiometer<br>
+https://wokwi.com/projects/340890155914101331 - Buzzer + Pushbutton<br>
+https://wokwi.com/projects/340890489300451922 - Buzzer + UltraSonic Sensor<br>
+https://wokwi.com/projects/340890896679567955 - Potentiometer + LED<br>
+https://wokwi.com/projects/340892440485429842 - DHT22<br>
+https://wokwi.com/projects/340893919446303316 - LED CHASER<br>
+https://wokwi.com/projects/340936317213868626 - LDR<br>
+https://wokwi.com/projects/340936847717827156 - LDR + LED<br>
+ 
+ 
+ 
  PROGRAM-1.0 (ESP32 LED)<br>
  https://wokwi.com/projects/336878768089989716
 
@@ -96,12 +113,13 @@ PROGRAM-2 (ESP32 RGB LED)<br>
 https://wokwi.com/projects/336881955089941074
 
 
-1.ESP32 LED:https://wokwi.com/projects/336877332872561236
-2.ESP32 3 LED:https://wokwi.com/projects/336882445805683282
-3.ESP32 RGB LED: https://wokwi.com/projects/336879976249819732
-4. ESP32 RGB LCD: https://wokwi.com/projects/340854854168609362
-5.servomotor with sliding potentiometer : https://wokwi.com/projects/340872161402028628
-6. LED_Chaser: https://wokwi.com/projects/340854632473428562
+1.ESP32 LED:https://wokwi.com/projects/336877332872561236<br>
+2.ESP32 3 LED:https://wokwi.com/projects/336882445805683282<br>
+3.ESP32 RGB LED: https://wokwi.com/projects/336879976249819732<br>
+4. ESP32 RGB LCD: https://wokwi.com/projects/340854854168609362<br>
+5.servomotor with sliding potentiometer : https://wokwi.com/projects/340872161402028628<br>
+6. LED_Chaser: https://wokwi.com/projects/340854632473428562<br>
+
 
 **************************************************************************
 1. To interface LED/Buzzer with Arduino and write a program to turn ON LED for 1 sec after every 2 seconds.<br>
