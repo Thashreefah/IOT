@@ -84,6 +84,27 @@ https://wokwi.com/projects/335702361099993682
  PROGRAM-21 (IR Receiver + LED)<br>
  https://wokwi.com/projects/340779619162522195
  
+ 🤍🤍
+ PROGRAM-1 (Seven segment LED display)
+ https://wokwi.com/projects/342586138402226771
+ 
+ PROGRAM-2 (Analog Joystick with two axes (horizontal/vertical) and an integrated push button. Etch-a-sketch - A simple drawing game using a MAX7219 LED Dot Matrix Reference)
+ https://wokwi.com/projects/342586839758013012
+ 
+  PROGRAM-3(DHT22 on the ESP32)
+ https://wokwi.com/projects/342587152744317523
+ 
+ PROGRAM-4(Display distance on LCD screen with buzzer and LED)
+ https://wokwi.com/projects/new/arduino-uno
+
+ https://wokwi.com/projects/342587960968872531
+ 
+ PROGRAM-4(Electronic Safe, powered by an Arduino Uno)
+ https://wokwi.com/projects/342589203089982035
+ 
+ PROGRAM-5(Arduino LED Graph Bar - Move the potentiometer knob to control the LEDs)
+ https://wokwi.com/projects/342590105614025300
+ 
  🤍ESP32 🤍
  
 ESP32<br>
