@@ -1,113 +1,47 @@
 # IOT
-
-PROGRAM-1.0(Arduino LED)<br>
-https://wokwi.com/projects/333796636268429907
-
-PROGRAM-1(Arduino 3-LED)<br>
-https://wokwi.com/projects/333716380233761363
-
-PROGRAM-2(Arduino RGB LED)<br>
-https://wokwi.com/projects/333885849725829714
-
-PROGRAM-3(Arduino LCD)<br>
-https://wokwi.com/projects/334974475061690963
-
-🤍SERVO MOTOR🤍
-
-PROGRAM-4 (SERVO MOTOR)<br>
-https://wokwi.com/projects/334977337093259858
-
-PROGRAM-5 (SERVOMOTOR + POTENTIOMETER SLIDE)<br>
-https://wokwi.com/projects/334980377426788946
-
-PROGRAM-6 (SERVOMOTOR + PUSHBUTTON)<br>
-https://wokwi.com/projects/335702709745222226
-
-PROGRAM-7 (SERVO MOTOR USING 2 FOR LOOPS[BACKWARD AND FORWARD])<BR>
- https://wokwi.com/projects/334981476631183956
-
-🤍BUZZER🤍
-
- PROGRAM-8 (BUZZER)<br>
- https://wokwi.com/projects/335065040663085650
- 
-PROGRAM-9(BUZZER + PUSH BUTTON)<br>
-https://wokwi.com/projects/335067381555528276
-
- PROGRAM-9.0(BUZZER + PUSH BUTTON + LED)<br>
- https://wokwi.com/projects/335616285217915474
- 
- PROGRAM-10(BUZZER + PUSH BUTTON [LONG PRESS])<br>
- https://wokwi.com/projects/335069571375432274
-
-🤍ULTRASONIC SENSOR🤍
-
- PROGRAM-11(ULTRASONIC SENSOR)<br>
- https://wokwi.com/projects/335070257026695763
- 
- PROGRAM-12(ULTRASONIC SENSOR + BUZZER)<br>
- https://wokwi.com/projects/335072488952169043
- 
- PROGRAM-13(ULTRASONIC SENSOR + BUZZER + LED)<br>
- https://wokwi.com/projects/335610155442897491
- 
- PROGRAM-14 (2 ULTRASONIC SENSOR + LED + BUZZER)<br>
- https://wokwi.com/projects/335706785117635155
- 
- 🤍POTENTIOMETER🤍
- 
-PROGRAM-15 (POTENTIOMETER + LED)<br>
-https://wokwi.com/projects/335702361099993682
-
- 
- 🤍DHT22🤍
- 
- PROGRAM-16 (DHT22 [HUMIDITY AND TEMPERATURE SENSOR])<br>
- https://wokwi.com/projects/338145784550654546
- 
- PROGRAM-17 (DHT22 [HUMIDITY AND TEMPERATURE SENSOR] + LCD)<br>
- https://wokwi.com/projects/338146187020337746
- 
- 🤍LED🤍
- 
- PROGRAM-18 (LED Chaser)<br>
- https://wokwi.com/projects/340853047777296978
- 
- 🤍LDR🤍
- 
- PROGRAM-19 (LDR) <br>
- https://wokwi.com/projects/340853480657781330
- 
- PROGRAM-20 (LDR + LED ) <br>
- https://wokwi.com/projects/340853623478026835
- 
- PROGRAM-21 (IR Receiver + LED)<br>
- https://wokwi.com/projects/340779619162522195
- 
- 🤍🤍
- PROGRAM-1 (Seven segment LED display)
- https://wokwi.com/projects/342586138402226771
- 
- PROGRAM-2 (Analog Joystick with two axes (horizontal/vertical) and an integrated push button. Etch-a-sketch - A simple drawing game using a MAX7219 LED Dot Matrix Reference)
- https://wokwi.com/projects/342586839758013012
- 
-  PROGRAM-3(DHT22 on the ESP32)
- https://wokwi.com/projects/342587152744317523
- 
- PROGRAM-4(Display distance on LCD screen with buzzer and LED)
- https://wokwi.com/projects/new/arduino-uno
-
- https://wokwi.com/projects/342587960968872531
- 
- PROGRAM-5(Electronic Safe, powered by an Arduino Uno
- https://wokwi.com/projects/342589203089982035
+#Arduino
+https://wokwi.com/projects/333796636268429907 PROGRAM-1.0(Arduino LED)<br>
+https://wokwi.com/projects/333716380233761363 PROGRAM-1(Arduino 3-LED)<br>
+https://wokwi.com/projects/333885849725829714 PROGRAM-2(Arduino RGB LED)<br>
+https://wokwi.com/projects/334974475061690963 PROGRAM-3(Arduino LCD)<br>
+https://wokwi.com/projects/334977337093259858 PROGRAM-4 (SERVO MOTOR)<br>
+https://wokwi.com/projects/334980377426788946 PROGRAM-5 (SERVOMOTOR + POTENTIOMETER SLIDE)<br>
+https://wokwi.com/projects/335702709745222226 PROGRAM-6 (SERVOMOTOR + PUSHBUTTON)<br>
+https://wokwi.com/projects/334981476631183956 PROGRAM-7 (SERVO MOTOR USING 2 FOR LOOPS[BACKWARD AND FORWARD])<BR>
+https://wokwi.com/projects/335065040663085650  PROGRAM-8 (BUZZER)<br>
+https://wokwi.com/projects/335067381555528276 PROGRAM-9(BUZZER + PUSH BUTTON)<br>
+https://wokwi.com/projects/335616285217915474  PROGRAM-9.0(BUZZER + PUSH BUTTON + LED)<br>
+https://wokwi.com/projects/335069571375432274  PROGRAM-10(BUZZER + PUSH BUTTON [LONG PRESS])<br>
+https://wokwi.com/projects/335070257026695763 PROGRAM-11(ULTRASONIC SENSOR)<br>
+https://wokwi.com/projects/335072488952169043 PROGRAM-12(ULTRASONIC SENSOR + BUZZER)<br>
+https://wokwi.com/projects/335610155442897491 PROGRAM-13(ULTRASONIC SENSOR + BUZZER + LED)<br>
+https://wokwi.com/projects/335706785117635155  PROGRAM-14 (2 ULTRASONIC SENSOR + LED + BUZZER)<br>
+https://wokwi.com/projects/335702361099993682 PROGRAM-15 (POTENTIOMETER + LED)<br>
+https://wokwi.com/projects/338145784550654546 PROGRAM-16 (DHT22 [HUMIDITY AND TEMPERATURE SENSOR])<br>
+https://wokwi.com/projects/338146187020337746 PROGRAM-17 (DHT22 [HUMIDITY AND TEMPERATURE SENSOR] + LCD)<br>
+https://wokwi.com/projects/340853047777296978 PROGRAM-18 (LED Chaser)<br>
+https://wokwi.com/projects/340853480657781330 PROGRAM-19 (LDR) <br>
+https://wokwi.com/projects/340853623478026835 PROGRAM-20 (LDR + LED ) <br>
+https://wokwi.com/projects/340779619162522195 PROGRAM-21 (IR Receiver + LED)<br>
+https://wokwi.com/projects/342586138402226771 PROGRAM-1 (Seven segment LED display)<br>
+https://wokwi.com/projects/342586839758013012  PROGRAM-2 (Analog Joystick with two axes (horizontal/vertical) and an integrated push button. Etch-a-sketch - A simple drawing game using a MAX7219 LED Dot Matrix Reference)<br>
+https://wokwi.com/projects/342587152744317523 PROGRAM-3(DHT22 on the ESP32)<br>
+https://wokwi.com/projects/new/arduino-uno  https://wokwi.com/projects/342587960968872531 PROGRAM-4(Display distance on LCD screen with buzzer and LED)<br>
+https://wokwi.com/projects/342589203089982035 PROGRAM-5(Electronic Safe, powered by an Arduino Uno)<br>
+https://wokwi.com/projects/342590105614025300  PROGRAM-6(Arduino LED Graph Bar - Move the potentiometer knob to control the LEDs)<br>
+<br>
 LINK: (  https://goodarduinocode.com/projects/electronic-safe    )
- PROGRAM-6(Arduino LED Graph Bar - Move the potentiometer knob to control the LEDs)
- https://wokwi.com/projects/342590105614025300
- 
- 🤍ESP32 🤍
- 
-ESP32<br>
+
+
+https://wokwi.com/projects/342586116652663380 - Seven_Segment<br>
+https://wokwi.com/projects/342587401518973522 - Joystick + DotMatrix<br>
+https://wokwi.com/projects/290056311044833800 - UltraSonic sensor + LED<br>
+https://wokwi.com/projects/342588998566281812 - UltraSonic Sensor + LCD<br>
+https://wokwi.com/projects/342590296329028180 - KeyPad + LCD + Servo<br>
+https://wokwi.com/projects/342591802779370068 - LED Bar Graph + Slide PotentioMeter<br>
+
+#ESP32<br>
+
 https://wokwi.com/projects/336966830711112275 - LED<br>
 https://wokwi.com/projects/336967978479256147 - 3 LED<br>
 https://wokwi.com/projects/340880463446934098 - RGB<br>
@@ -122,32 +56,6 @@ https://wokwi.com/projects/340893919446303316 - LED CHASER<br>
 https://wokwi.com/projects/340936317213868626 - LDR<br>
 https://wokwi.com/projects/340936847717827156 - LDR + LED<br>
  
- 
- https://wokwi.com/projects/342586116652663380 - Seven_Segment<br>
-https://wokwi.com/projects/342587401518973522 - Joystick + DotMatrix<br>
-https://wokwi.com/projects/290056311044833800 - UltraSonic sensor + LED<br>
-https://wokwi.com/projects/342588998566281812 - UltraSonic Sensor + LCD<br>
-https://wokwi.com/projects/342590296329028180 - KeyPad + LCD + Servo<br>
-https://wokwi.com/projects/342591802779370068 - LED Bar Graph + Slide PotentioMeter<br>
- 
- PROGRAM-1.0 (ESP32 LED)<br>
- https://wokwi.com/projects/336878768089989716
-
- PROGRAM-1 (ESP32 3-LED)<br>
-https://wokwi.com/projects/336881601441956435
-
-PROGRAM-2 (ESP32 RGB LED)<br>
-https://wokwi.com/projects/336881955089941074
-
-
-1.ESP32 LED:https://wokwi.com/projects/336877332872561236<br>
-2.ESP32 3 LED:https://wokwi.com/projects/336882445805683282<br>
-3.ESP32 RGB LED: https://wokwi.com/projects/336879976249819732<br>
-4. ESP32 RGB LCD: https://wokwi.com/projects/340854854168609362<br>
-5.servomotor with sliding potentiometer : https://wokwi.com/projects/340872161402028628<br>
-6. LED_Chaser: https://wokwi.com/projects/340854632473428562<br>
-
-
 **************************************************************************
 1. To interface LED/Buzzer with Arduino and write a program to turn ON LED for 1 sec after every 2 seconds.<br>
      https://wokwi.com/projects/334348041107538516 <br>
@@ -502,3 +410,21 @@ digitalWrite(pins[i], LOW); // switching the LED at index i off<br>
 }<br>
 }<br>
                  
+
+
+ PROGRAM-1.0 (ESP32 LED)<br>
+ https://wokwi.com/projects/336878768089989716
+
+ PROGRAM-1 (ESP32 3-LED)<br>
+https://wokwi.com/projects/336881601441956435
+
+PROGRAM-2 (ESP32 RGB LED)<br>
+https://wokwi.com/projects/336881955089941074
+
+
+1.ESP32 LED:https://wokwi.com/projects/336877332872561236<br>
+2.ESP32 3 LED:https://wokwi.com/projects/336882445805683282<br>
+3.ESP32 RGB LED: https://wokwi.com/projects/336879976249819732<br>
+4. ESP32 RGB LCD: https://wokwi.com/projects/340854854168609362<br>
+5.servomotor with sliding potentiometer : https://wokwi.com/projects/340872161402028628<br>
+6. LED_Chaser: https://wokwi.com/projects/340854632473428562<br>
