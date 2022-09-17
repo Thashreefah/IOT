@@ -123,6 +123,12 @@ https://wokwi.com/projects/340936317213868626 - LDR<br>
 https://wokwi.com/projects/340936847717827156 - LDR + LED<br>
  
  
+ https://wokwi.com/projects/342586116652663380 - Seven_Segment<br>
+https://wokwi.com/projects/342587401518973522 - Joystick + DotMatrix<br>
+https://wokwi.com/projects/290056311044833800 - UltraSonic sensor + LED<br>
+https://wokwi.com/projects/342588998566281812 - UltraSonic Sensor + LCD<br>
+https://wokwi.com/projects/342590296329028180 - KeyPad + LCD + Servo<br>
+https://wokwi.com/projects/342591802779370068 - LED Bar Graph + Slide PotentioMeter<br>
  
  PROGRAM-1.0 (ESP32 LED)<br>
  https://wokwi.com/projects/336878768089989716
